@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romy Garcia Portafolio</title>
+  <!-- ===== CSS Files ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!-- .style-switcher-->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+</head>
+
+<body>
+  <!-- ===== Main Container Start ===== -->
+  <div class="main-container">
+    <!-- ===== Aside Start ===== -->
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>Rom</span><strong>y</strong></a>
+      </div>
+      <div class="scan0">
+        <div class="scan">
+          <div class="qrcode">
+            <!-- <h3>QR Code Scanning...</h3>                         -->
+          </div>
+          <!-- <div class="Logo">
+            <a href="#"><span>Garci</span><strong>a</strong></a>
+          </div> -->
+          <div class="buttons padd-15">
+            <a href="docs/CV-Romy-Garcia.pdf" download class="btn">Download CV</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <div class="toggle"><span></span></div>
+        <ul>
+          <li style="--j:0;"><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+          <li style="--j:1;"><a href="#about"><i class="fa fa-user"></i> About me</a></li>
+          <li style="--j:2;"><a href="#education"><i class="fa fa-graduation-cap"></i> Educat. <i
+                class="fa fa-file-text"></i> Experie.</a></li>
+          <li style="--j:3;"><a href="#skills"><i class="fa fa-sliders"></i> Skills</a></li>
+          <!-- <li style="--j:4;"><a href="#services"><i class="fa fa-list"></i> Services</a></li> -->
+          <li style="--j:5;"><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+          <li style="--j:6;"><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+        </ul>
+      </div>
+      <script>
+        let navigation = document.querySelector('.navigation');
+        document.querySelector('.toggle').onclick = function () {
+          this.classList.toggle('active')
+          navigation.classList.toggle('active')
+        }
+      </script>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav" hidden>
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i>Over me</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+    <!-- ===== Aside End ===== -->
+    <!-- ===== Main Start ===== -->
+    <div class="main-content">
+      <!-- ===== Home Section Start ===== -->
+      <section class="home section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">Hello, my is name <span class="name">Romy Garcia</span></h3>
+              <h3 class="my-profession">I' m a <span class="typing">web designer</span></h3>
+              <p>Hi, I'm Romy, a Full Stack Web Developer.
+                Passionate about web programming Venezuelan residing in Ecuador.</p>
+              <a href="#contact" class="btn hire-me">Hire Me</a>
+            </div>
+            <div class="home-img padd-15 hidden">
+              <img class="img" src="images/hero-pw.png.png">
+            </div>
+            <!-- <div class="scan0">
+                            <div class="scan">
+                                <div class="qrcode">
+                                </div>
+                                <div class="Logo">
+                                    <a href="#"><span>Rom</span><strong>y</strong></a>
+                                </div>
+                            </div>                
+                        </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Home Section End ===== -->
+      <!-- ===== About Section Start ===== -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>I'm Romy Garcia <span>Full-Stack Developer</span> </h3>
+                  <p>Passionate tech enthusiast + quick learner + impactful solutions = my exceptional value!
+                  </p> <br>
+                  <p>
+                    With my experience, my rigorous academic background and challenging projects have provided me with
+                    deep knowledge and adaptability.
+                  </p><br>
+                  <p>
+                    Focusing on quality, efficiency, and usability, I deliver functional and appealing results.
+                  </p><br>
+                  <p>
+                    My dedication, work ethic, and enthusiasm will showcase my worth among other candidates.
+                  </p><br>
+                  <p>
+                    I bring a fresh and innovative perspective. I'm ready to take on any challenge and grow with your
+                    tech team!</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                  <div class="row">
+                    <!-- <div class="info-item padd-15">
+                      <p>Birthday : <span>08 mayo 1973</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Ange : <span>50</span></p>
+                    </div> -->
+                    <div class="info-item padd-15">
+                      <p>Email : <span>neitorme@gmail.com</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Degree : <span>Full Stack Web Developer</span></p>
+                      <p><span>Higher University Technician</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>Phone : <span>+593 963291299</span></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p>City : <span>Quito</span></p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="docs/CV-Romy-Garcia.pdf" download class="btn">Download CV</a>
+                      <a href="#contact" class="btn hire-me">Hire Me</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills padd-15" hidden>
+                  <div class="row">
+                    <ul class="skill_ul">
+                      <li class="skill_li" style="--i:1;">
+                        <img class="skill_img" src="./images/skill1.png">
+                        <div class="content">
+                          <h4>HTML, CSS, JAVASCRIPC</h4>
+                          <P>liked your photo <br> <span>20 Apr at 05:10</span></P>
+                        </div>
+                      </li>
+                      <li class="skill_li" style="--i:2;">
+                        <img class="skill_img" src="./images/skill1.png">
+                        <div class="content">
+                          <h4>HTML, CSS, JAVASCRIPC</h4>
+                          <P>liked your photo <br> <span>20 Apr at 05:10</span></P>
+                        </div>
+                      </li>
+                      <li class="skill_li" style="--i:3;">
+                        <img class="skill_img" src="./images/skill1.png">
+                        <div class="content">
+                          <h4>HTML, CSS, JAVASCRIPC</h4>
+                          <P>liked your photo <br> <span>20 Apr at 05:10</span></P>
+                        </div>
+                      </li>
+                      <li class="skill_li" style="--i:4;">
+                        <img class="skill_img" src="./images/skill1.png">
+                        <div class="content">
+                          <h4>HTML, CSS, JAVASCRIPC</h4>
+                          <P>liked your photo <br> <span>20 Apr at 05:10</span></P>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="skills padd-15" hidden>
+                  <div class="row">
+                    <div class="skill-item padd-15">
+                      <h5>HTML</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 76%"></div>
+                        <div class="skill-percent">76%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>CSS</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 86%"></div>
+                        <div class="skill-percent">86%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>JS</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 66%"></div>
+                        <div class="skill-percent">66%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>React Js</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 86%"></div>
+                        <div class="skill-percent">86%</div>
+                      </div>
+                    </div>
+                    <div class="skill-item padd-15">
+                      <h5>Bootstrap</h5>
+                      <div class="progress">
+                        <div class="progress-in" style="width: 80%"></div>
+                        <div class="skill-percent">80%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <section class="education padd-15" id="education">
+                  <h3 class="title">Education</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!--TimeLine-Item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 19/06/2023
+                          </h3>
+                          <h4 class="timeline-title">FULL STACK WEB DEVELOPER</h4>
+                          <p class="timeline-text">ACADEMLO, INC Online Programming School</p>
+                          <ul>
+                            <li>
+                              <strong class="timeline-title">1.- Web Development Fundamentals</strong>
+                            </li>
+                            <li>
+                              <strong class="timeline-title">2.- Programming with Advanced Javascript</strong>
+                            </li>
+                            <li>
+                              <strong class="timeline-title">3.- Web Application Development with React</strong>
+                            </li>
+                            <li>
+                              <strong class="timeline-title">4.- Backend Programming with Node.js</strong>
+                            </li>
+                            <li>
+                              <strong class="timeline-title">5.- Advanced Backend and Databases</strong>
+                            </li>
+                          </ul>
+                        </div>
+                        <!--TimeLine-Item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 06/11/1997
+                          </h3>
+                          <h4 class="timeline-title">UNIVERSITY HIGHER TECHNICIAN IN COMPUTING</h4>
+                          <p class="timeline-text">IUTAJS Instituto Universitario de Tecnología Antonio José de Sucre
+                            Venezuela</p>
+                        </div>
+                        <!--TimeLine-Item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2013 - 2015
+                          </h3>
+                          <h4 class="timeline-title">Tecnico Superior en Informatica</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                            cum, natus fugiat ex, inventore velit laboriosam molestias, quo unde incidunt suscipit
+                            optio. Illo maxime eos omnis.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <div class="experience padd-15">
+                  <h3 class="title">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+                        <!--TimeLine-Item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 06/08/2001 - 15/05/2018
+                          </h3>
+                          <h4 class="timeline-title">TECHNICAL OPERATOR CCO Department Operational Control Center</h4>
+                          <h4 class="timeline-title">C.A. Hidrológica del Centro, HIDROCENTRO Venezuela</h4>
+                          <p class="timeline-text">In this position, I managed the distribution of the water service to
+                            through automated systems, commanded remotely. He also coordinated the tasks of the
+                            on-call staff, managed statistics and reports for decision-making, attended
+                            customers for the solution of problems in the water service and sought
+                            fix them as soon as possible.</p>
+                        </div>
+                        <!--TimeLine-Item-->
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 25/11/1997 - 13/09/1999
+                          </h3>
+                          <h4 class="timeline-title">COORDINATOR OF INFORMATION TECHNOLOGY</h4>
+                          <h4 class="timeline-title">INSTITUTO UNIVERSITARIO POLITECNICO “SANTIAGO MARIÑO” Venezuela
+                          </h4>
+                          <p class="timeline-text">I automated the administrative processes of student control, cash
+                            management, part of accounting, human resources, and access control for solvent students to
+                            the institution using Foxpro 2.6 for Windows. I installed new networks and computer
+                            equipment, provided technical support and equipment repair, and generated end-of-year
+                            reports on budget and budget execution.</p>
+                        </div>
+                        <!--TimeLine-Item-->
+                        <!-- <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2013 - 2015
+                          </h3>
+                          <h4 class="timeline-title">Tecnico Superior en Informatica</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                            cum, natus fugiat ex, inventore velit laboriosam molestias, quo unde incidunt suscipit
+                            optio. Illo maxime eos omnis.</p>
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== About Section End ===== -->
+      <!-- ===== Skills Section Start ===== -->
+      <section class="skills section" id="skills">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Skills</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="skills padd-15">
+              <ul class="skill_ul">
+                <li class="skill_li" style="--i:1;">
+                  <img class="skill_img" src="./images/skill1.png">
+                  <div class="content">
+                    <h4>HTML, CSS, JAVASCRIPC</h4>
+                    <!-- <P>liked your photo <br> <span>20 Apr at 05:10</span></P> -->
+                  </div>
+                </li>
+                <li class="skill_li" style="--i:2;">
+                  <img class="skill_react" src="./images/React.png">
+                  <img class="skill_redux" src="./images/Redux.png">
+                  <img class="skill_bootstrap" src="./images/bootstrap.png">
+                  <div class="content">
+                    <h4>React, Redux, Bootstrap</h4>
+                    <!-- <P>liked your photo <br> <span>20 Apr at 05:10</span></P> -->
+                  </div>
+                </li>
+                <li class="skill_li" style="--i:3;">
+                  <img class="skill_postgre" src="./images/PostgreSQL.png">
+                  <img class="skill_node" src="./images/Node js.png">
+                  <img class="skill_npm" src="./images/npm.png">
+                  <div class="content">
+                    <h4>Node JS, PostgreSQL, Npm</h4>
+                    <!-- <P>liked your photo <br> <span>20 Apr at 05:10</span></P> -->
+                  </div>
+                </li>
+                <li class="skill_li" style="--i:4;">
+                  <img class="skill_swagger" src="./images/swagger-logo-horizontal.png">
+                  <img class="skill_postman" src="./images/Postman.png">
+                  <img class="skill_nodemon" src="./images/nodemon.png">
+                  <div class="content">
+                    <h4>Swagger, Postman, Nodemon</h4>
+                    <!-- <P>liked your photo <br> <span>20 Apr at 05:10</span></P> -->
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Skills Section End ===== -->
+      <!-- ===== Services Section Start ===== -->
+      <!-- <section class="service section" id="services" >
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Services</h2>
+            </div>
+          </div>
+          <div class="row"> -->
+      <!-- ===== Services Item Start ===== -->
+      <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-mobile-alt"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sunt reiciendis sint!</p>
+              </div>
+            </div> -->
+      <!-- ===== Services Item End ===== -->
+      <!-- ===== Services Item Start ===== -->
+      <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-laptop-code"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sunt reiciendis sint!</p>
+              </div>
+            </div> -->
+      <!-- ===== Services Item End ===== -->
+      <!-- ===== Services Item Start ===== -->
+      <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-palette"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sunt reiciendis sint!</p>
+              </div>
+            </div> -->
+      <!-- ===== Services Item End ===== -->
+      <!-- ===== Services Item Start ===== -->
+      <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-code"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sunt reiciendis sint!</p>
+              </div>
+            </div> -->
+      <!-- ===== Services Item End ===== -->
+      <!-- ===== Services Item Start ===== -->
+      <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sunt reiciendis sint!</p>
+              </div>
+            </div> -->
+      <!-- ===== Services Item End ===== -->
+      <!-- ===== Services Item Start ===== -->
+      <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-bullhorn"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sunt reiciendis sint!</p>
+              </div>
+            </div> -->
+      <!-- ===== Services Item End ===== -->
+      <!-- </div>
+        </div>
+      </section> -->
+      <!-- ===== Services Section End ===== -->
+      <!-- ===== Portfolio Section Start ===== -->
+      <section class="portfolioxx sectionxx" id="portfolioxx" hidden>
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              <h2>My Last Projects :</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!--Portfolio Item Star-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-1.jpeg">
+                </div>
+              </div>
+            </div>
+            <!--Portfolio Item End-->
+            <!--Portfolio Item Star-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-2.jpeg">
+                </div>
+              </div>
+            </div>
+            <!--Portfolio Item End-->
+            <!--Portfolio Item Star-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-3.jpeg">
+                </div>
+              </div>
+            </div>
+            <!--Portfolio Item End-->
+            <!--Portfolio Item Star-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-4.jpeg">
+                </div>
+              </div>
+            </div>
+            <!--Portfolio Item End-->
+            <!--Portfolio Item Star-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-5.jpeg">
+                </div>
+              </div>
+            </div>
+            <!--Portfolio Item End-->
+            <!--Portfolio Item Star-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/portfolio-6.jpeg">
+                </div>
+              </div>
+            </div>
+            <!--Portfolio Item End-->
+          </div>
+        </div>
+      </section>
+
+      <!-- */* -->
+      <section class="portfolio" id="portfolio">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+        <div class="container_card">
+          <div class="card_ini">
+            <div class="card">
+              <div class="card_front" width="100%"
+                style="background-image: url(images/Swagger-Commerce.png) ; background-attachment: local; background-size: cover; background-position: left;">
+                <!-- <div class="bg"></div> -->
+                <div class="body_card_front">
+                  <ul>
+                    <li>
+                      <h2 class="title_card_front"><span>BACKEND E-COMMERCE</span></h2>
+                    </li>
+                    <li>
+                      <h2 class="msj_card_front">for an e-commerce of products, which includes CRUD of users and
+                        products, shopping cart and sending an invoice by email.
+                        <i class="fa-solid fa-hand-pointer"></i> <i class="fa-solid fa-hand-pointer"></i> <i
+                          class="fa-solid fa-hand-pointer"></i>
+                      </h2>
+                    </li>
+                    <!-- <li>
+                    <div>
+                      <h2 class="msj_card_front"><span>Ver Mas...</span></h2>
+                    </div>
+                  </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <div class="a_link">
+                    <h3><span><u>BACKEND E-COMMERCE</u></span></h3>
+                  </div>
+                  <div class="a_link">
+                    <h4>Bcrypt, Cors, Dotenv, Ejs, Express, Express-validator, Jsonwebtoken Nodemailer, Pg, Pg-hstore,
+                      Sequelize, Swagger, Nodemon</h4>
+                  </div>
+                  <br>
+                  <div class="a_link">
+                    <a href="https://dbdiagram.io/d/647be5e7722eb7749457f675" target="_blank">DB Diagram.io</a>
+                    <br>
+                    <a href="https://github.com/Neitor2023/e-commerce-postgresql.git" target="_blank">Git Hud</a>
+                    <br>
+                    <a href="https://romy-garcia-proyect-final.onrender.com/docs/" target="_blank">Swagger</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="card_ini">
+          <div class="card">
+            <div class="card_front" style="background-image: url(images/ChatAPI.png);">
+              <div class="body_card_front">
+                <ul>
+                  <li>
+                    <h2 class="title_card_front"><span>BACKEND CHAT</span></h2>
+                  </li>
+                  <li>
+                    <h2 class="msj_card_front">Communication web application for several users who connect to share ideas, opinions, doubts, problems and solutions around a topic.</h2>
+                  </li>
+                  <li>
+                    <div>
+                      <h2 class="msj_card_front"><span>Ver Mas...</span></h2>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card_back">
+              <div class="body_card_back">
+                <div class="a_link">
+                  <h3><span><u>BACKEND CHAT</u></span></h3>
+                </div>
+                <div class="a_link">
+                  <h4>Bcrypt, Cors, Dotenv, Ejs, Express, Express-validator, Jsonwebtoken Nodemailer, Pg, Pg-hstore, Sequelize, Swagger, Nodemon</h4>
+                </div>
+                <br>
+                <div class="a_link">
+                  <a href="https://dbdiagram.io/d/646d383ddca9fb07c4a363e6" target="_blank">DB Diagram.io</a>
+                  <br>
+                  <a href="https://github.com/Neitor2023/Chat-API-PosgreSQL.git" target="_blank">Git Hud</a>
+                  <br>
+                  <a href="https://documenter.getpostman.com/view/26407405/2s93m8xKxo" target="_blank">Postman</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+          <div class="card_ini">
+            <div class="card">
+              <div class="card_front" width="100%"
+                style="background-image: url(images/React-E-Commerce.png); background-attachment:local; background-size:cover; background-position:left;">
+                <div class="body_card_front">
+                  <ul>
+                    <li>
+                      <h2 class="title_card_front"><span>REACT E-COMMERCE</span></h2>
+                    </li>
+                    <li>
+                      <h2 class="msj_card_front">for an e-commerce of products, which includes CRUD of users and
+                        products, shopping cart and sending an invoice by email.
+                        <i class="fa-solid fa-hand-pointer"></i> <i class="fa-solid fa-hand-pointer"></i> <i
+                          class="fa-solid fa-hand-pointer"></i>
+                      </h2>
+                    </li>
+                    <!-- <li>
+                    <div>
+                      <h2 class="msj_card_front"><span>Ver Mas...</span></h2>
+                    </div>
+                  </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <div class="a_link">
+                    <h3><span><u>REACT E-COMMERCE</u></span></h3>
+                  </div>
+                  <div class="a_link">
+                    <h4>Bcrypt, Cors, Dotenv, Ejs, Express, Express-validator, Jsonwebtoken Nodemailer, Pg, Pg-hstore,
+                      Sequelize, Swagger, Nodemon</h4>
+                  </div>
+                  <br>
+                  <div class="a_link">
+                    <a href="https://github.com/Neitor2023/E-Commerce.git" target="_blank">Git Hud</a>
+                    <a href="https://romy-garcia-e-commerce.netlify.app/#/" target="_blank">Explorar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card_ini">
+            <div class="card">
+              <div class="card_front" width="100%"
+                style="background-image: url(images/Pokemon.png); background-attachment:local; background-size:cover; background-position:center;">
+                <div class="body_card_front">
+                  <ul>
+                    <li>
+                      <h2 class="title_card_front"><span>REACT POKEMON</span></h2>
+                    </li>
+                    <li>
+                      <h2 class="msj_card_front">for an e-commerce of products, which includes CRUD of users and
+                        products, shopping cart and sending an invoice by email.
+                        <i class="fa-solid fa-hand-pointer"></i> <i class="fa-solid fa-hand-pointer"></i> <i
+                          class="fa-solid fa-hand-pointer"></i>
+                      </h2>
+                    </li>
+                    <!-- <li>
+                    <div>
+                      <h2 class="msj_card_front"><span>Ver Mas...</span></h2>
+                    </div>
+                  </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <div class="a_link">
+                    <h3><span><u>REACT POKEMON</u></span></h3>
+                  </div>
+                  <div class="a_link">
+                    <h4>Bcrypt, Cors, Dotenv, Ejs, Express, Express-validator, Jsonwebtoken Nodemailer, Pg, Pg-hstore,
+                      Sequelize, Swagger, Nodemon</h4>
+                  </div>
+                  <br>
+                  <div class="a_link">
+                    <a href="https://github.com/Neitor2023/Pokemon.git" target="_blank">Git Hud</a>
+                    <a href="https://romy-garcia-pokemon.netlify.app/" target="_blank">Explorar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card_ini">
+            <div class="card">
+              <div class="card_front" width="100%"
+                style="background-image: url(images/React-Crud-Productos.png); background-attachment:local; background-size:cover; background-position:center;">
+                <div class="body_card_front">
+                  <ul>
+                    <li>
+                      <h2 class="title_card_front"><span>REACT CRUD PRODUCTOS</span></h2>
+                    </li>
+                    <li>
+                      <h2 class="msj_card_front">for an e-commerce of products, which includes CRUD of users and
+                        products, shopping cart and sending an invoice by email.
+                        <i class="fa-solid fa-hand-pointer"></i> <i class="fa-solid fa-hand-pointer"></i> <i
+                          class="fa-solid fa-hand-pointer"></i>
+                      </h2>
+                    </li>
+                    <!-- <li>
+                    <div>
+                      <h2 class="msj_card_front"><span>Haz clip para ver más...</span></h2>
+                    </div>
+                  </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <div class="a_link">
+                    <h3><span><u>REACT CRUD PRODUCTOS</u></span></h3>
+                  </div>
+                  <div class="a_link">
+                    <h4>Bcrypt, Cors, Dotenv, Ejs, Express, Express-validator, Jsonwebtoken Nodemailer, Pg, Pg-hstore,
+                      Sequelize, Swagger, Nodemon.</h4>
+                  </div>
+                  <br>
+                  <div class="a_link">
+                    <a href="https://github.com/Neitor2023/CRUD-Productos.git" target="_blank">Git Hud</a>
+                    <a href="https://romy-garcia-crud-productos.netlify.app/" target="_blank">Explorar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card_ini">
+            <div class="card">
+              <div class="card_front" width="100%"
+                style="background-image: url(images/Rick-and-Morty.png); background-attachment:local; background-size:cover; background-position:center;">
+                <div class="body_card_front">
+                  <ul>
+                    <li>
+                      <h2 class="title_card_front"><span>REACT Rick and Morty</span></h2>
+                    </li>
+                    <li>
+                      <h2 class="msj_card_front">for an e-commerce of products, which includes CRUD of users and
+                        products, shopping cart and sending an invoice by email.
+                        <i class="fa-solid fa-hand-pointer"></i> <i class="fa-solid fa-hand-pointer"></i> <i
+                          class="fa-solid fa-hand-pointer"></i>
+                      </h2>
+                    </li>
+                    <!-- <li>
+                    <div>
+                      <h2 class="msj_card_front"><span>Haz clip para ver más...</span></h2>
+                    </div>
+                  </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <div class="a_link">
+                    <h3><span><u>REACT Rick and Morty</u></span></h3>
+                  </div>
+                  <div class="a_link">
+                    <h4>Bcrypt, Cors, Dotenv, Ejs, Express, Express-validator, Jsonwebtoken Nodemailer, Pg, Pg-hstore,
+                      Sequelize, Swagger, Nodemon.</h4>
+                  </div>
+                  <br>
+                  <div class="a_link">
+                    <a href="https://github.com/Neitor2023/Rick-and-Morty?search=1" target="_blank">Git Hud</a>
+                    <a href="https://rick-and-morty-five-mu.vercel.app/" target="_blank">Explorar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card_ini">
+            <div class="card">
+              <div class="card_front" width="100%"
+                style="background-image: url(images/Open-Weather.png); background-attachment:local; background-size:cover; background-position:center;">
+                <div class="body_card_front">
+                  <ul>
+                    <li>
+                      <h2 class="title_card_front"><span>REACT Open Weather</span></h2>
+                    </li>
+                    <li>
+                      <h2 class="msj_card_front">for an e-commerce of products, which includes CRUD of users and
+                        products, shopping cart and sending an invoice by email.
+                        <i class="fa-solid fa-hand-pointer"></i> <i class="fa-solid fa-hand-pointer"></i> <i
+                          class="fa-solid fa-hand-pointer"></i>
+                      </h2>
+                    </li>
+                    <!-- <li>
+                    <div>
+                      <h2 class="msj_card_front"><span>Haz clip para ver más...</span></h2>
+                    </div>
+                  </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <div class="a_link">
+                    <h3><span><u>REACT Open Weather</u></span></h3>
+                  </div>
+                  <div class="a_link">
+                    <h4>Bcrypt, Cors, Dotenv, Ejs, Express, Express-validator, Jsonwebtoken Nodemailer, Pg, Pg-hstore,
+                      Sequelize, Swagger, Nodemon.</h4>
+                  </div>
+                  <br>
+                  <div class="a_link">
+                    <a href="https://github.com/Neitor2023/OpenWeather.git" target="_blank">Git Hud</a>
+                    <a href="https://romy-garcia-openweather.netlify.app/" target="_blank">Explorar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card_ini">
+            <div class="card">
+              <div class="card_front" width="100%"
+                style="background-image: url(images/Fortune--Cookie.png); background-attachment:local; background-size:cover; background-position:center;">
+                <div class="body_card_front">
+                  <ul>
+                    <li>
+                      <h2 class="title_card_front"><span>REACT Fortune cookie</span></h2>
+                    </li>
+                    <li>
+                      <h2 class="msj_card_front">for an e-commerce of products, which includes CRUD of users and
+                        products, shopping cart and sending an invoice by email.
+                        <i class="fa-solid fa-hand-pointer"></i> <i class="fa-solid fa-hand-pointer"></i> <i
+                          class="fa-solid fa-hand-pointer"></i>
+                      </h2>
+                    </li>
+                    <!-- <li>
+                    <div>
+                      <h2 class="msj_card_front"><span>Haz clip para ver más...</span></h2>
+                    </div>
+                  </li> -->
+                  </ul>
+                </div>
+              </div>
+              <div class="card_back">
+                <div class="body_card_back">
+                  <div class="a_link">
+                    <h3><span><u>REACT Fortune cookie</u></span></h3>
+                  </div>
+                  <div class="a_link">
+                    <h4>Bcrypt, Cors, Dotenv, Ejs, Express, Express-validator, Jsonwebtoken Nodemailer, Pg, Pg-hstore,
+                      Sequelize, Swagger, Nodemon.</h4>
+                  </div>
+                  <br>
+                  <div class="a_link">
+                    <a href="https://github.com/Neitor2023/Galleta-De-La-Fortuna.git" target="_blank">Git Hud</a>
+                    <a href="https://romy-garcia-galleta-fortuna.netlify.app/" target="_blank">Explorar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- */* -->
+      <!-- ===== Portafolio Section End ===== -->
+      <!-- ===== Contac Section Start ===== -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">Have you Any Question ?</h3>
+          <h4 class="contact-sub-title padd-15">I'M AI YOUR SERVICES</h4>
+          <div class="row">
+            <!--Contact Info Item Start-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <h4>Call Us On</h4>
+              <p>+593-963291299</p>
+            </div>
+            <!--Contact Info Item End-->
+            <!--Contact Info Item Start-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+              <h4>Office</h4>
+              <p>Quito, Ecuador</p>
+            </div>
+            <!--Contact Info Item End-->
+            <!--Contact Info Item Start-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>neitorme@gmail.com</p>
+            </div>
+            <!--Contact Info Item End-->
+            <!--Contact Info Item Start-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-globe-europe"></i></div>
+              <h4>website</h4>
+              <p>www.damain.com</p>
+            </div>
+            <!--Contact Info Item End-->
+          </div>
+          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+          <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+          <!-- ===== Contac Form ===== -->
+
+          <form action="https://formspree.io/f/mrgvpyew" method="post">
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input id="name" name="name" type="text" class="form-control" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input id="email" name="Email" type="email" class="form-control" required placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input id="subject" name="subject" type="text" class="form-control" placeholder="Subject">
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea name="mensaje" id="" class="form-control" placeholder="Menssage"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <button type="submit" class="btn">Send Message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- ===== Contac Section End ===== -->
+    </div>
+    <!-- ===== Main End ===== -->
+  </div>
+  <!-- ===== Main Container End ===== -->
+  <!-- ===== Style Switcher Start ===== -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+      <!-- <i class="fa fa-gear fa-spin"></i> -->
+      <!--2:35:17-->
+    </div>
+    <div class="day-night s-icon">
+      <!-- <i class="fas fa-moon"></i> -->
+      <i class="fas "></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!-- ===== Style Switcher End ===== -->
+  <!-- ===== JS Files ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
+<!-- ===== Home Start ===== -->
+<!-- ===== Home End ===== -->
